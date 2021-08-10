@@ -15,7 +15,7 @@ export default {
   created() {},       // 컴포넌트가 생성되면 실행
   mounted() {},       // template에 정의된 html 코드가 랜더링 된 후 실행
   unmount() {},       // unmount가 완료된 후 실행
-  methods: {}          // 컴포넌트 내에서 사용할 메소드 정의
+  methods {}          // 컴포넌트 내에서 사용할 메소드 정의
 }
 </script>
 
