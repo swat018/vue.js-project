@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import DataBindingCheckbox from '../views/DataBindingCheckbox.vue'
+import DataBindingCheckbox2 from '../views/DataBindingCheckbox2.vue'
 
 const routes = [
   {
@@ -17,9 +17,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/databindingcheckbox',
-    name: 'DataBindingCheckbox',
-    component: DataBindingCheckbox
+    path: '/databindingcheckbox2',
+    name: 'DataBindingCheckbox2',
+    component: DataBindingCheckbox2
   }
 ]
 
