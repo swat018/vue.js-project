@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import DataBindingInputNumber from '../views/DataBindingInputNumber.vue'
+import DataBindingTextarea from '../views/DataBindingTextarea.vue'
 
 const routes = [
   {
@@ -17,9 +17,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/databindinginputnumber',
-    name: 'DataBindingInputNumber',
-    component: DataBindingInputNumber
+    path: '/databindingtextarea',
+    name: 'DataBindingTextarea',
+    component: DataBindingTextarea
   }
 ]
 
