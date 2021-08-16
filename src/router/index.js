@@ -3,7 +3,7 @@ import {
   createWebHistory
 } from 'vue-router'
 import Home from '../views/Home.vue'
-import Computed from '../views/Computed.vue'
+import Watch from '../views/Watch.vue'
 
 const routes = [
   {
@@ -20,9 +20,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/computed',
-    name: 'Computed',
-    component: Computed
+    path: '/watch',
+    name: 'Watch',
+    component: Watch
   }
 ]
 
