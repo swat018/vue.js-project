@@ -3,7 +3,7 @@ import {
   createWebHistory
 } from 'vue-router'
 import Home from '../views/Home.vue'
-import DataBindingClass2 from '../views/DataBindingClass2'
+import DataBindingStyle from '../views/DataBindingStyle'
 
 const routes = [
   {
@@ -20,9 +20,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/databindingclass2',
-    name: 'DataBindingClass2',
-    component: DataBindingClass2
+    path: '/databindingstyle',
+    name: 'DataBindingStyle',
+    component: DataBindingStyle
   }
 ]
 
