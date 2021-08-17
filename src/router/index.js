@@ -3,7 +3,7 @@ import {
   createWebHistory
 } from 'vue-router'
 import Home from '../views/Home.vue'
-import NestedComponent from '../views/NestedComponent.vue'
+import NestedComponent2 from '../views/NestedComponent2.vue'
 
 const routes = [
   {
@@ -20,9 +20,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/nested',
-    name: 'NestedComponent',
-    component: NestedComponent
+    path: '/nested2',
+    name: 'NestedComponent2',
+    component: NestedComponent2
   }
 ]
 
