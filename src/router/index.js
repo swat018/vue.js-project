@@ -3,7 +3,7 @@ import {
   createWebHistory
 } from 'vue-router'
 import Home from '../views/Home.vue'
-import ParentComponent from '../views/ParentComponent2.vue'
+import ParentComponent from '../views/ParentComponent3.vue'
 
 const routes = [
   {
