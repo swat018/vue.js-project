@@ -6,7 +6,6 @@
 <script>
 import ChildComponent from './ChildComponent5';
 export default {
-  name: "ParentComponent5",
   components: {ChildComponent},
   computed: {
     msg(){

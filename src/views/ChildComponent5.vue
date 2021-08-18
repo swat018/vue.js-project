@@ -1,5 +1,5 @@
 <template>
-  <button type="button" @click="ChildFunc" ref="btn">자식 컴포넌트 데이터 변경</button>
+  <button type="button" @click="childFunc" ref="btn">자식 컴포넌트 데이터 변경</button>
 </template>
 
 <script>
