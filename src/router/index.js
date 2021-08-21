@@ -3,7 +3,7 @@ import {
   createWebHistory
 } from 'vue-router'
 import Home from '../views/Home.vue'
-import ParentComponent from '../views/ParentComponent5.vue'
+import SlotUseModalLayout from '../views/SlotUseModalLayout2.vue'
 
 const routes = [
   {
@@ -20,9 +20,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/parentcomponent',
-    name: 'ParentComponent',
-    component: ParentComponent
+    path: '/slotusermodallayout',
+    name: 'SlotUseModalLayout',
+    component: SlotUseModalLayout
   }
 ]
 
