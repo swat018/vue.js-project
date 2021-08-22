@@ -3,7 +3,7 @@ import {
   createWebHistory
 } from 'vue-router'
 import Home from '../views/Home.vue'
-import CompositionAPI from '../views/CompositionAPI.vue'
+import CompositionAPI from '../views/CompositionAPI2.vue'
 
 const routes = [
   {
