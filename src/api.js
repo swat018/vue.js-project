@@ -6,7 +6,7 @@ export default {
                 method: method,
                 url,
                 data
-            }).cathc(e => {
+            }).catch(e => {
                 console.log(e);
             })).data;
         }

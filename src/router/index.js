@@ -3,7 +3,7 @@ import {
   createWebHistory
 } from 'vue-router'
 import Home from '../views/Home.vue'
-import CompositionAPIProvide from '../views/CompositionAPIProvide.vue'
+import Mixins from '../views/Mixins.vue'
 
 const routes = [
   {
@@ -20,9 +20,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/compositionapiprovide',
-    name: 'CompositionAPIProvide',
-    component: CompositionAPIProvide
+    path: '/mixins',
+    name: 'Mixins',
+    component: Mixins
   }
 ]
 

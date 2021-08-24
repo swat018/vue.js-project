@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/compositionapiprovide">Data Binding</router-link>
+    <router-link to="/mixins">Data Binding</router-link>
   </div>
   <router-view/>
 </template>
