@@ -3,7 +3,7 @@ import {
   createWebHistory
 } from 'vue-router'
 import Home from '../views/Home.vue'
-import CustomDirective from '../views/CustomDirective.vue'
+import CustomDirective from '../views/CustomDirective2.vue'
 
 const routes = [
   {
