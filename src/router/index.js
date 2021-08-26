@@ -3,7 +3,7 @@ import {
   createWebHistory
 } from 'vue-router'
 import Home from '../views/Home.vue'
-import CustomDirective from '../views/CustomDirective2.vue'
+import Plugins from '../views/Plugins.vue'
 
 const routes = [
   {
@@ -20,9 +20,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/customdirective',
-    name: 'CustomDirective',
-    component: CustomDirective
+    path: '/plugins',
+    name: 'Plugins',
+    component: Plugins
   }
 ]
 
