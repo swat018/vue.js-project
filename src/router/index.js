@@ -3,7 +3,7 @@ import {
   createWebHistory
 } from 'vue-router'
 import Home from '../views/Home.vue'
-import Plugins from '../views/Plugins.vue'
+import StoreAccess from '../views/StoreAccess.vue'
 
 const routes = [
   {
@@ -20,9 +20,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/plugins',
-    name: 'Plugins',
-    component: Plugins
+    path: '/storeaccess',
+    name: 'StoreAccess',
+    component: StoreAccess
   }
 ]
 
