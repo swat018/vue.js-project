@@ -3,7 +3,7 @@ import {
   createWebHistory
 } from 'vue-router'
 import Home from '../views/Home.vue'
-import StoreAccess from '../views/StoreAccess.vue'
+import KaKaoLogin from '../views/KaKaoLogin.vue'
 
 const routes = [
   {
@@ -20,9 +20,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/storeaccess',
-    name: 'StoreAccess',
-    component: StoreAccess
+    path: '/kakaologin',
+    name: 'KaKaoLogin',
+    component: KaKaoLogin
   }
 ]
 

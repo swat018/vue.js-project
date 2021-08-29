@@ -23,3 +23,4 @@ app.use(router)
 app.use(i18nPlugin, i18nStrings)   // i18n 플러그인에 다국어 번역 데이터를 파라미터로 전달
 app.mixin(mixins)
 app.mount('#app')
+window.Kakao.init("5685880d1cc6253892df846924bfcb77"); // 발급 받은 앱 키
