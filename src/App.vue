@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/naverlogin">Data Binding</router-link>
+    <router-link to="/googlelogin">Data Binding</router-link>
   </div>
   <router-view/>
 </template>
